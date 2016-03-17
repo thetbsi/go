@@ -3,56 +3,57 @@ package main
 import (
 	"fmt"
 	c "github.com/skilstak/go/colors"
-
+	i "github.com/skilstak/go/input"
 )
 
 func Dice() {
-sides := []
-const sides('''
+	sides := []
+	const( 
+	sides = ('''
   ------
  |      |
  |  一  |
  |     1|
   ------
-''')
+	''')
 
-const sides('''
+	sides = ('''
   ------
  |      |
  |  二  |
  |     2|
   ------
-''')
+	''')
 
-const sides('''
+	sides = ('''
   ------
  |      |
  |  三  |
  |     3|
   ------
-''')
+	''')
 
-const sides('''
+	sides = ('''
   ------
  |      |
  |  四  |
  |     4|
   ------
-''')
+	''')
 
-const sides('''
+	sides = ('''
   ------
  |      |
  |  五  |
  |     5|
   ------
-''')
+	''')
 
-const sides('''
+	sides = ('''
   ------
  |      |
  |  六  | 
  |     6|
   ------
-''')
+	''')
 
