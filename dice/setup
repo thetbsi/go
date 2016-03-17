@@ -1,0 +1,4 @@
+
+
+export GOPATH=$HOME/repos/go/dice
+export PATH=$HOME/repos/go/dice/bin:$PATH
